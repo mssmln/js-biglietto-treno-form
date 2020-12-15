@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>biglietto treno con form dinamico</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <h2>calcola il prezzo del tuo biglietto</h2>
+
+    <!-- TICKET FORM -->
+    <div class="ticket-form">
+      <!-- ROW ABOVE -->
+      <div class="row">
+        <div class="col">
+          <label for="name">Nome Cognome</label>
+          <input id="name" type="text" placeholder="inserisci nome e cognome">
+        </div>
+        <div class="col">
+          <label for="km">Km da percorrere</label>
+          <input id="km" placeholder="km" type="number">
+        </div>
+        <div class="col">
+          <label for="age">Fascia d'età</label>
+          <select id="age">
+            <option value="minorenne">minorenne</option>
+            <option value="maggiorenne">maggiorenne</option>
+            <option value="over65">over 65</option>
+
+          </select>
+        </div>
+
+      </div>
+      <!-- /ROW ABOVE -->
+
+
+      <!-- ROW BELOW -->
+      <div class="row">
+        <div class="btn">
+          <button type="button" name="button">genera</button>
+
+        </div>
+        <div class="btn">
+          <button type="button" name="button">annulla</button>
+
+        </div>
+
+      </div>
+      <!-- /ROW BELOW -->
+
+
+
+
+
+    </div>
+
+    <!-- /TICKET FORM -->
+
+
+    <!-- TICKET -->
+    <div class="ticket">
+      <h2>il tuo biglietto</h2>
+
+    </div>
+    <!-- /TICKET -->
+
+  </div>
+
+
+
+
+
+
+
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+</html>

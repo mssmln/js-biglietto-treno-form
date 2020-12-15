@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #B91450;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* WRAPPER */
+.wrapper{
+  /* max-width: 1100px; */
+}
+
+h2{
+  color: white;
+  text-transform: uppercase;
+  padding: 30px;
+  font-size: 30px;
+}
+
+/* TICKET FORM */
+.ticket-form{
+  background-color: white;
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+
+/* ROW ABOVE */
+.ticket-form .row{
+  display: flex;
+  justify-content: center;
+}
+
+.ticket-form .row .col{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.col label{
+  color: #B91450;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.col input,
+.col select{
+  border-radius: 5px;
+  border: 1px solid #B91450;
+  padding: 5px;
+}
+
+.col input:focus,
+.col select:focus{
+  background-color: #B91450;
+  color: white;
+}
+
+.col input::placeholder{
+  text-align: center;
+}
+/* /ROW ABOVE */
+
+
+/* ROW BELOW */
+.row .btn{
+  padding: 30px;
+}
+
+.btn button{
+  background-color: #CCCCCC;
+  color: #B91450;
+  text-transform: capitalize;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 600;
+}
+/* ROW /BELOW */
+
+
+/* /TICKET FORM */
+
+
+
+
+/* /WRAPPER */
